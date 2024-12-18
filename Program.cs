@@ -5,6 +5,7 @@ using MongoDB.Driver;
 using TaskService.Features.CreateTask;
 using Serilog;
 using TaskService.Infrastructure.MongoDb;
+using TaskService.Features.GetTasks;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,13 +23,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton(sp =>
 {
-    var connectionString = "mongodb://localhost:27017"; // Adjust as needed
+    var connectionString = "mongodb://debstar:27017"; // Adjust as needed
     var databaseName = "taskservice";
     return new MongoDbContext(connectionString, databaseName);
 });
 
 
 builder.Services.AddScoped<CreateTaskHandler>();
+builder.Services.AddScoped<GetTaskHandler>();
 //
 builder.Services.AddControllers();
 var app = builder.Build();
