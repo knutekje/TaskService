@@ -1,0 +1,213 @@
+2024-12-18 15:39:50.384 +01:00 [INF] Now listening on: http://localhost:5212
+2024-12-18 15:39:50.428 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 15:39:50.429 +01:00 [INF] Hosting environment: Development
+2024-12-18 15:39:50.429 +01:00 [INF] Content root path: /home/knutekje/Code/taskManager/TaskService
+2024-12-18 16:35:42.415 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/ - null null
+2024-12-18 16:35:42.447 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-18 16:35:42.452 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/ - 404 0 null 37.7598ms
+2024-12-18 16:35:42.457 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5212/, Response status code: 404
+2024-12-18 16:35:42.515 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/favicon.ico - null null
+2024-12-18 16:35:42.517 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/favicon.ico - 404 0 null 2.23ms
+2024-12-18 16:35:42.518 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5212/favicon.ico, Response status code: 404
+2024-12-18 16:35:43.671 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/ - null null
+2024-12-18 16:35:43.672 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/ - 404 0 null 1.1575ms
+2024-12-18 16:35:43.673 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5212/, Response status code: 404
+2024-12-18 16:35:43.776 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/favicon.ico - null null
+2024-12-18 16:35:43.777 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/favicon.ico - 404 0 null 1.6207ms
+2024-12-18 16:35:43.778 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5212/favicon.ico, Response status code: 404
+2024-12-18 16:35:48.134 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger - null null
+2024-12-18 16:35:48.135 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger - 301 0 null 1.2698ms
+2024-12-18 16:35:48.154 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - null null
+2024-12-18 16:35:48.224 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - 200 null text/html;charset=utf-8 69.3028ms
+2024-12-18 16:35:48.264 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui.css - null null
+2024-12-18 16:35:48.279 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-18 16:35:48.280 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui.css - 200 152034 text/css 15.5699ms
+2024-12-18 16:35:48.280 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui-bundle.js - null null
+2024-12-18 16:35:48.280 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-18 16:35:48.282 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-18 16:35:48.282 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 1.9752ms
+2024-12-18 16:35:48.284 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-12-18 16:35:48.285 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 4.0036ms
+2024-12-18 16:35:48.792 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/favicon-16x16.png - null null
+2024-12-18 16:35:48.793 +01:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-12-18 16:35:48.793 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/favicon-16x16.png - 200 665 image/png 0.5722ms
+2024-12-18 16:35:48.814 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - null null
+2024-12-18 16:35:48.820 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-18 16:35:48.830 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.9797ms
+2024-12-18 16:36:06.478 +01:00 [INF] Application is shutting down...
+2024-12-18 16:39:20.656 +01:00 [INF] Now listening on: http://localhost:5212
+2024-12-18 16:39:20.701 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 16:39:20.702 +01:00 [INF] Hosting environment: Development
+2024-12-18 16:39:20.702 +01:00 [INF] Content root path: /home/knutekje/Code/taskManager/TaskService
+2024-12-18 16:39:31.023 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - null null
+2024-12-18 16:39:31.127 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - 200 null text/html;charset=utf-8 105.0244ms
+2024-12-18 16:39:31.162 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-18 16:39:31.174 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-18 16:39:31.174 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui-standalone-preset.js - 499 230280 text/javascript 12.9115ms
+2024-12-18 16:39:31.300 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/favicon-16x16.png - null null
+2024-12-18 16:39:31.302 +01:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-12-18 16:39:31.302 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/favicon-16x16.png - 499 665 image/png 1.9263ms
+2024-12-18 16:39:31.337 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - null null
+2024-12-18 16:39:31.347 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-18 16:39:31.364 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.4824ms
+2024-12-18 16:39:31.949 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/ - null null
+2024-12-18 16:39:31.953 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-18 16:39:31.954 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/ - 404 0 null 4.1892ms
+2024-12-18 16:39:31.956 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5212/, Response status code: 404
+2024-12-18 16:39:32.060 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/favicon.ico - null null
+2024-12-18 16:39:32.060 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/favicon.ico - 499 null null 0.5814ms
+2024-12-18 16:39:32.061 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5212/favicon.ico, Response status code: 499
+2024-12-18 16:39:35.391 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/ - null null
+2024-12-18 16:39:35.392 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/ - 301 0 null 1.0044ms
+2024-12-18 16:39:35.405 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - null null
+2024-12-18 16:39:35.405 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - 200 null text/html;charset=utf-8 0.6554ms
+2024-12-18 16:39:35.440 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui.css - null null
+2024-12-18 16:39:35.440 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-18 16:39:35.440 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui.css - 499 152034 text/css 0.924ms
+2024-12-18 16:39:35.625 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - null null
+2024-12-18 16:39:35.626 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.0191ms
+2024-12-18 16:44:52.180 +01:00 [INF] Application is shutting down...
+2024-12-18 16:50:29.848 +01:00 [INF] Now listening on: http://localhost:5212
+2024-12-18 16:50:29.892 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 16:50:29.892 +01:00 [INF] Hosting environment: Development
+2024-12-18 16:50:29.892 +01:00 [INF] Content root path: /home/knutekje/Code/taskManager/TaskService
+2024-12-18 16:50:36.484 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/ - null null
+2024-12-18 16:50:36.503 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-18 16:50:36.506 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/ - 404 0 null 23.3564ms
+2024-12-18 16:50:36.512 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5212/, Response status code: 404
+2024-12-18 16:50:36.556 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/favicon.ico - null null
+2024-12-18 16:50:36.559 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/favicon.ico - 404 0 null 4.2116ms
+2024-12-18 16:50:36.560 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5212/favicon.ico, Response status code: 404
+2024-12-18 16:50:39.477 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - null null
+2024-12-18 16:50:39.547 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - 200 null text/html;charset=utf-8 70.1722ms
+2024-12-18 16:50:39.578 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-18 16:50:39.586 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-18 16:50:39.586 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui-standalone-preset.js - 499 230280 text/javascript 7.9616ms
+2024-12-18 16:50:39.747 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/favicon-16x16.png - null null
+2024-12-18 16:50:39.748 +01:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-12-18 16:50:39.749 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/favicon-16x16.png - 499 665 image/png 1.3897ms
+2024-12-18 16:50:39.812 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - null null
+2024-12-18 16:50:39.818 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-18 16:50:39.831 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.7172ms
+2024-12-18 16:51:52.570 +01:00 [INF] Application is shutting down...
+2024-12-18 16:51:55.097 +01:00 [INF] Now listening on: http://localhost:5212
+2024-12-18 16:51:55.141 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 16:51:55.142 +01:00 [INF] Hosting environment: Development
+2024-12-18 16:51:55.142 +01:00 [INF] Content root path: /home/knutekje/Code/taskManager/TaskService
+2024-12-18 16:52:04.172 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/ - null null
+2024-12-18 16:52:04.210 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-18 16:52:04.212 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/ - 404 0 null 41.5053ms
+2024-12-18 16:52:04.217 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5212/, Response status code: 404
+2024-12-18 16:52:04.273 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/favicon.ico - null null
+2024-12-18 16:52:04.277 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/favicon.ico - 404 0 null 3.9503ms
+2024-12-18 16:52:04.277 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5212/favicon.ico, Response status code: 404
+2024-12-18 16:52:07.189 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - null null
+2024-12-18 16:52:07.286 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - 200 null text/html;charset=utf-8 96.9072ms
+2024-12-18 16:52:07.330 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui.css - null null
+2024-12-18 16:52:07.337 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-18 16:52:07.337 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/swagger-ui.css - 499 152034 text/css 7.2632ms
+2024-12-18 16:52:07.447 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - null null
+2024-12-18 16:52:07.557 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.7717ms
+2024-12-18 16:52:11.243 +01:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5212/api/tasks - application/json 23
+2024-12-18 16:52:11.243 +01:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5212/api/tasks - 404 0 null 0.5897ms
+2024-12-18 16:52:11.243 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://127.0.0.1:5212/api/tasks, Response status code: 404
+2024-12-18 17:00:26.781 +01:00 [INF] Application is shutting down...
+2024-12-18 17:00:29.558 +01:00 [INF] Now listening on: http://localhost:5212
+2024-12-18 17:00:29.601 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 17:00:29.602 +01:00 [INF] Hosting environment: Development
+2024-12-18 17:00:29.602 +01:00 [INF] Content root path: /home/knutekje/Code/taskManager/TaskService
+2024-12-18 17:00:40.615 +01:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5212/api/tasks - application/json 23
+2024-12-18 17:00:40.652 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-18 17:00:40.655 +01:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5212/api/tasks - 404 0 null 42.2899ms
+2024-12-18 17:00:40.660 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://127.0.0.1:5212/api/tasks, Response status code: 404
+2024-12-18 17:01:26.020 +01:00 [INF] Application is shutting down...
+2024-12-18 17:01:43.213 +01:00 [INF] Now listening on: http://localhost:5212
+2024-12-18 17:01:43.255 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 17:01:43.256 +01:00 [INF] Hosting environment: Development
+2024-12-18 17:01:43.256 +01:00 [INF] Content root path: /home/knutekje/Code/taskManager/TaskService
+2024-12-18 17:01:47.111 +01:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5212/api/tasks - application/json 23
+2024-12-18 17:01:47.136 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-18 17:01:47.138 +01:00 [INF] Executing endpoint 'TaskService.Controllers.TasksController.CreateTask (TaskService)'
+2024-12-18 17:01:47.164 +01:00 [INF] Route matched with {action = "CreateTask", controller = "Tasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(TaskService.Features.CreateTask.CreateTaskRequest) on controller TaskService.Controllers.TasksController (TaskService).
+2024-12-18 17:01:47.441 +01:00 [INF] Executed action TaskService.Controllers.TasksController.CreateTask (TaskService) in 275.2111ms
+2024-12-18 17:01:47.444 +01:00 [INF] Executed endpoint 'TaskService.Controllers.TasksController.CreateTask (TaskService)'
+2024-12-18 17:01:47.446 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+MongoDB.Bson.BsonSerializationException: An error occurred while serializing the Id property of class TaskService.Models.TaskEntity: GuidSerializer cannot serialize a Guid when GuidRepresentation is Unspecified.
+ ---> MongoDB.Bson.BsonSerializationException: GuidSerializer cannot serialize a Guid when GuidRepresentation is Unspecified.
+   at MongoDB.Bson.Serialization.Serializers.GuidSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Guid value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeNormalMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeMember(BsonSerializationContext context, Object obj, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.SerializeClass(BsonSerializationContext context, BsonSerializationArgs args, TClass document)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TClass value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.Serializers.BsonDocumentWrapperSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, BsonDocumentWrapper value)
+   at MongoDB.Bson.Serialization.Serializers.BsonValueSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TBsonValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.Serializers.BsonValueSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TBsonValue value)
+   at MongoDB.Driver.Core.Operations.BulkInsertOperation.InsertRequestSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, InsertRequest value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.Core.WireProtocol.Messages.Encoders.BinaryEncoders.Type1SectionFormatter.FormatSection(Type1CommandMessageSection section, IBsonWriter writer)
+   at MongoDB.Driver.Core.WireProtocol.Messages.Encoders.BinaryEncoders.CommandMessageBinaryEncoder.WriteSection(BsonBinaryWriter writer, CommandMessageSection section, Int64 messageStartPosition)
+   at MongoDB.Driver.Core.WireProtocol.Messages.Encoders.BinaryEncoders.CommandMessageBinaryEncoder.WriteSections(BsonBinaryWriter writer, IEnumerable`1 sections, Int64 messageStartPosition)
+   at MongoDB.Driver.Core.WireProtocol.Messages.Encoders.BinaryEncoders.CommandMessageBinaryEncoder.WriteMessage(CommandMessage message)
+   at MongoDB.Driver.Core.WireProtocol.Messages.Encoders.BinaryEncoders.CommandRequestMessageBinaryEncoder.WriteMessage(CommandRequestMessage message)
+   at MongoDB.Driver.Core.WireProtocol.Messages.Encoders.BinaryEncoders.CommandRequestMessageBinaryEncoder.MongoDB.Driver.Core.WireProtocol.Messages.Encoders.IMessageEncoder.WriteMessage(MongoDBMessage message)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.SendMessagesHelper.EncodeMessages(CancellationToken cancellationToken, List`1& sentMessages)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.SendMessagesAsync(IEnumerable`1 messages, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.PooledConnection.SendMessagesAsync(IEnumerable`1 messages, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.SendMessageAndProcessResponseAsync(CommandRequestMessage message, Int32 responseTo, IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableWriteOperationExecutor.ExecuteAsync[TResult](IRetryableWriteOperation`1 operation, RetryableWriteContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.BulkUnmixedWriteOperationBase`1.ExecuteBatchAsync(RetryableWriteContext context, Batch batch, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.BulkUnmixedWriteOperationBase`1.ExecuteBatchesAsync(RetryableWriteContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteBatchAsync(RetryableWriteContext context, Batch batch, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteWriteOperationAsync[TResult](IWriteBinding binding, IWriteOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteWriteOperationAsync[TResult](IClientSessionHandle session, IWriteOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.InsertOneAsync(TDocument document, InsertOneOptions options, Func`3 bulkWriteAsync)
+   at TaskService.Features.CreateTask.CreateTaskHandler.Handle(CreateTaskRequest request) in /home/knutekje/Code/taskManager/TaskService/Features/CreateTask/CreateTaskHandler.cs:line 30
+   at TaskService.Controllers.TasksController.CreateTask(CreateTaskRequest request) in /home/knutekje/Code/taskManager/TaskService/Controllers/TaskController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-18 17:01:47.466 +01:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5212/api/tasks - 500 null text/plain; charset=utf-8 356.793ms
+2024-12-18 17:22:13.214 +01:00 [INF] Application is shutting down...
+2024-12-18 17:23:27.307 +01:00 [INF] Now listening on: http://localhost:5212
+2024-12-18 17:23:27.351 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 17:23:27.352 +01:00 [INF] Hosting environment: Development
+2024-12-18 17:23:27.352 +01:00 [INF] Content root path: /home/knutekje/Code/taskManager/TaskService
+2024-12-18 17:23:32.098 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - null null
+2024-12-18 17:23:32.212 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/index.html - 200 null text/html;charset=utf-8 116.0117ms
+2024-12-18 17:23:32.458 +01:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - null null
+2024-12-18 17:23:32.522 +01:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.4542ms
+2024-12-18 17:23:35.810 +01:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5212/api/tasks - application/json 23
+2024-12-18 17:23:35.818 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-18 17:23:35.821 +01:00 [INF] Executing endpoint 'TaskService.Controllers.TasksController.CreateTask (TaskService)'
+2024-12-18 17:23:35.856 +01:00 [INF] Route matched with {action = "CreateTask", controller = "Tasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(TaskService.Features.CreateTask.CreateTaskRequest) on controller TaskService.Controllers.TasksController (TaskService).
+2024-12-18 17:23:36.175 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'TaskService.Models.TaskEntity'.
+2024-12-18 17:23:36.202 +01:00 [INF] Executed action TaskService.Controllers.TasksController.CreateTask (TaskService) in 343.8052ms
+2024-12-18 17:23:36.203 +01:00 [INF] Executed endpoint 'TaskService.Controllers.TasksController.CreateTask (TaskService)'
+2024-12-18 17:23:36.204 +01:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5212/api/tasks - 201 null application/json; charset=utf-8 394.1727ms

@@ -1,0 +1,54 @@
+
+# Dotnet artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.ide
+*.dll
+*.exe
+*.pdb
+*.log
+*.db
+folder.sh
+
+# Logs
+logs/
+*.log
+**/*.log
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+**/docker-compose.*
+
+# MongoDB
+*.lock
+data/
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.swp
+*~
+
+# Build files
+publish/
+TestResults/
+
+# Visual Studio and Rider
+.vscode/
+.idea/
+*.sln.docstates
+*.dotCover
+*.userprefs
+
+# Secrets
+appsettings.Development.json
+secrets.json
+.env
+
+# Dependencies
+node_modules/
