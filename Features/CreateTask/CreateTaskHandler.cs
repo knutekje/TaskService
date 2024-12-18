@@ -1,6 +1,6 @@
 using MongoDB.Driver;
 using TaskService.Infrastructure;
-using TaskService.Infratstructure.MongoDb;
+using TaskService.Infrastructure.MongoDb;
 using TaskService.Models;
 
 

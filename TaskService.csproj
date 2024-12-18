@@ -21,4 +21,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include=".git\workflows\ci-cd.yml">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ci-cd.yml.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

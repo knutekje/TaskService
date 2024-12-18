@@ -1,11 +1,7 @@
-namespace TaskService.Infratstructure.MongoDb;
-
-
 using MongoDB.Driver;
 using TaskService.Models;
-using MongoDB.Bson.Serialization;
-using MongoDB.Bson.Serialization.IdGenerators;
-using MongoDB.Bson.Serialization.Serializers;
+
+namespace TaskService.Infrastructure.MongoDb;
 
 public class MongoDbContext
 {
@@ -17,5 +13,6 @@ public class MongoDbContext
         _database = client.GetDatabase(databaseName);
     }
 
-    public IMongoCollection<TaskEntity> Tasks => _database.GetCollection<TaskEntity>("tasks");
+    //public IMongoCollection<TaskEntity> Tasks => _database.GetCollection<TaskEntity>("tasks");
+    public virtual IMongoCollection<TaskEntity> Tasks => _database.GetCollection<TaskEntity>("tasks");
 }

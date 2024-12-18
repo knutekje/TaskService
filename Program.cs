@@ -4,8 +4,7 @@ using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using TaskService.Features.CreateTask;
 using Serilog;
-using TaskService.Infratstructure.MongoDb;
-
+using TaskService.Infrastructure.MongoDb;
 
 
 var builder = WebApplication.CreateBuilder(args);
