@@ -66,6 +66,8 @@ builder.Services.AddSingleton<IMongoClient>(sp =>
     if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
     {
         connectionString = "mongodb://debstar:27017";
+        connectionString =
+            "mongodb://root:rootpassword@mongodb.taskmanager.svc.cluster.local:27017/taskdb?authSource=admin";
     }
     //?? throw new InvalidOperationException("MONGO_CONNECTION_STRING environment variable is not set.");
    
