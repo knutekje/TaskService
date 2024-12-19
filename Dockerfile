@@ -1,8 +1,10 @@
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /App
-EXPOSE 8080 # The container's internal port
-EXPOSE 5000 # The desired port for external mapping
+EXPOSE 8080 
+# The container's internal port
+EXPOSE 5000 
+# The desired port for external mapping
 
 # Copy everything
 COPY . ./
