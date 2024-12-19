@@ -36,4 +36,4 @@ jobs:
           context: ./TaskService
           file: ./TaskService/Dockerfile
           push: true
-          tags: your-dockerhub-username/taskservice:latest
+          tags: knutekje/taskservice:latest
