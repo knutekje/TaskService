@@ -70,7 +70,7 @@ builder.Services.AddSingleton<IMongoClient>(sp =>
             "mongodb://root:rootpassword@mongodb.taskmanager.svc.cluster.local:27017/taskdb?authSource=admin";
     }
     //?? throw new InvalidOperationException("MONGO_CONNECTION_STRING environment variable is not set.");
-   
+    Console.WriteLine(connectionString);
     return new MongoClient(connectionString);
 });
 
