@@ -17,8 +17,8 @@ jobs:
       matrix:
         service:
           - TaskService
-          - NotificationService
-          - AnalyticsService
+          #- NotificationService
+          #- AnalyticsService
 
     steps:
       # Step 1: Checkout the code
