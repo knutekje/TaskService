@@ -3,16 +3,17 @@ using TaskService.Models;
 
 namespace TaskService.Infrastructure.MongoDb;
 
+
+using MongoDB.Driver;
+
 public class MongoDbContext
 {
     private readonly IMongoDatabase _database;
 
-    public MongoDbContext(string connectionString, string databaseName)
+    public MongoDbContext(IMongoClient mongoClient, string databaseName)
     {
-        var client = new MongoClient(connectionString);
-        _database = client.GetDatabase(databaseName);
+        _database = mongoClient.GetDatabase(databaseName);
     }
 
-    //public IMongoCollection<TaskEntity> Tasks => _database.GetCollection<TaskEntity>("tasks");
-    public virtual IMongoCollection<TaskEntity> Tasks => _database.GetCollection<TaskEntity>("tasks");
+    public IMongoCollection<TaskEntity> Tasks => _database.GetCollection<TaskEntity>("Tasks");
 }
