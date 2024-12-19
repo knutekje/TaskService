@@ -22,41 +22,18 @@ builder.Host.UseSerilog();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-/*builder.Services.AddSingleton(sp =>
-{
-    var connectionString = "mongodb://debstar:27017"; // Adjust as needed
-    var databaseName = "taskservice";
-    return new MongoDbContext(connectionString, databaseName);
-});*/
+var allowedOrigin = builder.Configuration["CORS_ALLOWED_ORIGIN"];
 
-/*var mongoConnectionString = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING");
-
-if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
+builder.Services.AddCors(options =>
 {
-    mongoConnectionString = "mongodb://localhost:27017";
-}
-if (string.IsNullOrEmpty(mongoConnectionString))
-{
-    throw new InvalidOperationException("MongoDB connection string is not set in the environment variables.");
-}*/
-// Get MongoDB connection string from environment variables
-/*var mongoConnectionString = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING");
-
-if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
-{
-    mongoConnectionString = "mongodb://localhost:27017";
-}
-if (string.IsNullOrEmpty(mongoConnectionString))
-{
-    throw new InvalidOperationException("MongoDB connection string is not set in the environment variables.");
-}
-
-// Configure MongoDB
-builder.Services.AddSingleton<IMongoDatabase>(sp =>
-{
-    var mongoClient = new MongoClient(mongoConnectionString);
-    return mongoClient.GetDatabase("taskdb"); 
-});*/
+    options.AddPolicy("AllowAll",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+        });
+});
 
 builder.Services.AddSingleton<IMongoClient>(sp =>
 {
@@ -87,6 +64,8 @@ builder.Services.AddScoped<GetTaskHandler>();
 //
 builder.Services.AddControllers();
 var app = builder.Build();
+app.UseCors("AllowAll");
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
