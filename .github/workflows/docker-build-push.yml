@@ -43,4 +43,4 @@ jobs:
           context: ./${{ matrix.service }}
           file: ./${{ matrix.service }}/Dockerfile
           push: true
-          tags: your-dockerhub-username/${{ matrix.service }}:latest
+          tags: knutekje/${{ matrix.service }}:latest
